@@ -363,18 +363,6 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
-
-          //Put Image in Column
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Image(
-                image: AssetImage('path'),
-                width: 100,
-                height: 100,
-              ),
-            ],
-          )
         ],
       ),
     );
